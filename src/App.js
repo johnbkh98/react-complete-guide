@@ -36,7 +36,7 @@ const  App = () => {
     console.log('In Apps.js');
     console.log(expense);
   }
-
+//
   return (
     <div>
       <NewExpense onAddExpense={addExpenseHandler}/>
